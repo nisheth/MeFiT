@@ -18,6 +18,22 @@ Version : v1.0
 Contact : Nihar U. Sheth (nsheth@vcu.edu)
 ##############################################################################
 
+
+Prerequisites:
+
+Python version 2.7 (version 3.0 or greater may not work)
+Python module 
+	numpy 	installation instructions:	http://www.numpy.org/
+	HTSeq 	installation instructions:	http://www-huber.embl.de/users/anders/HTSeq/doc/install.html
+	
+CASPER (Context-Aware Scheme for Paired-End Read)
+		installation instructions:	http://best.snu.ac.kr/casper
+
+Jellyfish mer counter	
+		installation instructions:	http://www.genome.umd.edu/jellyfish.html
+
+
+
 Usage : mefit -r1 R1.fastq -r2 R2.fastq [OPTIONS]
 
 
