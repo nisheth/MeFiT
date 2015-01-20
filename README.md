@@ -18,7 +18,7 @@ Version : v1.0
 Contact : Nihar U. Sheth (nsheth@vcu.edu)
 ##############################################################################
 
-Usage : mefit -r1 forward.fastq -r2 reverse.fastq [OPTIONS]
+Usage : mefit -r1 R1.fastq -r2 R2.fastq [OPTIONS]
          'mefit -h' for detailed help
 
 
@@ -33,7 +33,7 @@ Usage : mefit -r1 forward.fastq -r2 reverse.fastq [OPTIONS]
 	[OPTIONS]
 
 	-p	<str>		CASPER parameters file (tab-delimited) 
-				Default:    casper.params
+					Default:    casper.params
 						threads : 12
 						k-mer length : 17
 						threshold for difference of quality-score : 20
@@ -41,13 +41,13 @@ Usage : mefit -r1 forward.fastq -r2 reverse.fastq [OPTIONS]
 						minimum overlap length : 15
 
 	-e	<float>		Percent error cut-off - MEE threshold value
-				Default: 1.0
+					Default: 1.0
 
 	-a			Merge all reads, including the non-overlapping reads 
-				Default: False		
+					Default: False		
 
 	-n	<int>		Length of Ns to insert between non-overlapping reads for merging
-				Default: 15
+					Default: 15
 
 ##############################################################################
 
