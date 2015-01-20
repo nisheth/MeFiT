@@ -19,7 +19,6 @@ Contact : Nihar U. Sheth (nsheth@vcu.edu)
 ##############################################################################
 
 Usage : mefit -r1 R1.fastq -r2 R2.fastq [OPTIONS]
-         'mefit -h' for detailed help
 
 
 	[REQUIRED ARGUMENTS]
