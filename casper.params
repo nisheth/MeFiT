@@ -1,0 +1,5 @@
+threads :	12
+k-mer length :	17
+threshold for difference of quality-score :	20
+threshold for mismatch-ratio :	0.2
+minimum overlap length :	15	
