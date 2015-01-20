@@ -23,8 +23,8 @@ Prerequisites:
 
 Python version 2.7 (version 3.0 or greater may not work)
 Python module 
-\n	numpy 	installation instructions:	http://www.numpy.org/
-\n	HTSeq 	installation instructions:	http://www-huber.embl.de/users/anders/HTSeq/doc/install.html
+	numpy 	installation instructions:	http://www.numpy.org/
+	HTSeq 	installation instructions:	http://www-huber.embl.de/users/anders/HTSeq/doc/install.html
 	
 CASPER (Context-Aware Scheme for Paired-End Read)
 		installation instructions:	http://best.snu.ac.kr/casper
@@ -65,4 +65,3 @@ Usage : mefit -r1 R1.fastq -r2 R2.fastq [OPTIONS]
 					Default: 15
 
 ##############################################################################
-
