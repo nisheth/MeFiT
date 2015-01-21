@@ -19,9 +19,10 @@ Contact : Nihar U. Sheth (nsheth@vcu.edu)
 ##############################################################################
 
 
-Prerequisites:
+# Prerequisites:
 
 Python version 2.7 (version 3.0 or greater may not work)
+
 Python module 
 	numpy 	installation instructions:	http://www.numpy.org/
 	HTSeq 	installation instructions:	http://www-huber.embl.de/users/anders/HTSeq/doc/install.html
@@ -34,7 +35,8 @@ Jellyfish mer counter
 
 
 
-Usage : mefit -r1 R1.fastq -r2 R2.fastq [OPTIONS]
+# Usage : 
+	$mefit -r1 R1.fastq -r2 R2.fastq [OPTIONS]
 
 
 	[REQUIRED ARGUMENTS]
@@ -63,5 +65,33 @@ Usage : mefit -r1 R1.fastq -r2 R2.fastq [OPTIONS]
 
 	-n	<int>		Length of Ns to insert between non-overlapping reads for merging
 					Default: 15
+
+
+# Example :
+
+	$mefit -r1 sample_R1.fastq -r2 sample_R2.fastq
+
+	$mefit -r1 sample_R1.fastq -r2 sample_R2.fastq -p casper.params -e 1.0 -a -n 15
+
+
+
+	Output Files :
+
+
+	CASPER Output Files :
+
+	sample.fastq			Merged reads
+	sample_for_left.fastq		Non-overlapping forward reads
+	sample_rev_left.fastq		Non-overlapping reverse reads
+	sample.casper.log		CASPER log file
+	
+
+	MeFiT Output Files :
+
+	sample.ovlp.fastq		Merged overlapping reads
+	sample.ovlp.hq.fastq		Merged overlapping High-Quality reads
+	sample.nonovlp.fastq		Merged Non-overlapping reads
+	sample.nonovlp.hq.fastq		Merged Non-overlapping High-Quality reads
+	mefit_params.txt		Log of MeFiT parameters
 
 ##############################################################################

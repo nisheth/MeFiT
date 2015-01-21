@@ -257,8 +257,8 @@ def main():
 	casperrevleft = outname + "_rev_left.fastq"
 	ovlpfastq = "./" + sample_id  + ".ovlp.fastq"
 	nonovlpfastq = "./" + sample_id + ".nonovlp.fastq"
-	ovlpqffastq = "./" + sample_id  + ".ovlp.qf.fastq"
-	nonovlpqffastq = "./" + sample_id  + ".nonovlp.qf.fastq"
+	ovlpqffastq = "./" + sample_id  + ".ovlp.hq.fastq"
+	nonovlpqffastq = "./" + sample_id  + ".nonovlp.hq.fastq"
 
 	perc_err = args.e
 	non_ovlp = args.a
