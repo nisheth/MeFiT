@@ -1,0 +1,2 @@
+SampleID	TotalReads	Overlapping	%Overlapping	NonOverlapping	%NonOverlapping	AvgReadLength	AvgQuality	AvgMEE	Error-cutoff	HQReads	%HQReads	HQ-%Overlapping	HQ-AvgReadLength	HQ-AvgQuality	HQ-AvgMEE
+sample	37159	35228	94.8%	1931	5.2%	513.46	34.65	2.38	1.0%	33113	89.11%	100.0%	508.32	35.67	0.85

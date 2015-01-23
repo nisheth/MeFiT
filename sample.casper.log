@@ -1,0 +1,30 @@
+=============================================================================
+[CASPER] Context-Aware Scheme for Paired-End Read
+
+  Input Files
+     -  Forward file     : sample_R1.fastq
+     -  Reverse file     : sample_R2.fastq
+
+  Parameters
+     -  Number of threads for parallel processing : 8
+     -  K-mer size                                : 19
+     -  Threshold for difference of quality score : 19
+     -  Threshold for mismatching ratio           : 0.27
+     -  Minimum length of overlap                 : 10
+     -  Using Jellyfish                           : true
+    
+  K-mers : Jellyfish
+     -  jellyfish count -m 19 -L 2 -o ./samplejellykmer -c 3 -s 10000000 -t 8 sample_R1.fastq
+     -  jellyfish count -m 19 -L 2 -o ./samplejellykmer -c 3 -s 10000000 -t 8 sample_R2.fastq
+
+  Output Files
+     -  Merged output file            : ./sample.fastq
+     -  Not merged forward side file  : ./sample_for_left.fastq
+     -  Not merged reverse side file  : ./sample_rev_left.fastq
+
+  Merging Result Statistics
+     -  Total number of reads     :      37159
+     -  Number of merged reads    :      35228 (94.80%)
+     -  Number of unmerged reads  :       1931 (5.20%)
+     -  TIME for total processing :     18.358 sec
+=============================================================================

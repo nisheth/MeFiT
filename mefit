@@ -91,7 +91,7 @@ def merge_CASPER(fwd_file, rev_file, outname, logfile):
 			unmerged_perc = round(unmerged_perc, 2)
 	OLF.close()	
 
-	out_lst = [reads, merged, merged_perc, unmerged, unmerged_perc] 
+	out_lst = [reads, merged, str(str(merged_perc)+"%"), unmerged, str(str(unmerged_perc)+"%")] 
 	return out_lst
 	
 
