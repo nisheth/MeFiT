@@ -8,6 +8,7 @@ CASPER Parameters:
 
 
 Merge and Quality Filter Parameters:
-Percent error for Quality Filtering -  1.0
+Quality Filtering Method -  avgq
+Filtering Threshold -  25.0
 Keep non-overlapping reads -  True
-Patch length for non-overlapping reads -  10
+Patch length for non-overlapping reads -  15
