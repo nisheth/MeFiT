@@ -7,7 +7,7 @@ Description : This pipeline will merge overlapping paired-end reads, calculate
               merge statistics, and filter reads for quality
 
 
-Author : Hardik I. Parikh, PhD (parikhhi@mymail.vcu.edu)
+Author : Hardik I. Parikh, PhD (parikhhi@vcu.edu)
 
 Date : Jan 20, 2015
 
