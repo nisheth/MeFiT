@@ -1,6 +1,8 @@
 # MeFiT
 
 ##############################################################################
+
+
 Program : MeFiT (Merging and Filtering Tool for Paired-End Reads)
 
 Description : This pipeline will merge overlapping paired-end reads, calculate 
@@ -14,7 +16,14 @@ Date : Jan 20, 2015
 Version : v1.0
 
 Contact : Nihar U. Sheth (nsheth@vcu.edu)
+
+
 ##############################################################################
+
+> **NOTE**: Both, Nihar and Hardik, are no longer at VCU and above email addresses
+> are no longer valid. I will try to respond to any queries regarding MeFit as 
+> and when I have some free time. Feel free to contact [me](mailto:vishal.koparde@nih.gov)
+> directly or open an issue here (preferred!).
 
 
 # Prerequisites:
