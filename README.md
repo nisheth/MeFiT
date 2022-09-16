@@ -32,7 +32,7 @@ HTSeq 	installation instructions:	http://www-huber.embl.de/users/anders/HTSeq/do
 
 CASPER (Context-Aware Scheme for Paired-End Read)
 
-installation instructions:	http://best.snu.ac.kr/casper
+installation instructions:	https://github.com/skwonPNU/casper
 
 
 Jellyfish mer counter
